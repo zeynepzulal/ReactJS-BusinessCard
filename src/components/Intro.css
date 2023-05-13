@@ -1,0 +1,75 @@
+
+.intro{
+   /* width: 25%;   */
+}
+
+.intro img{
+    border-radius: 10px;
+    display: block;
+    width: 399px;
+    
+}
+
+.intro h2{
+ font-family: 'Times New Roman', Times, serif;
+ color: whitesmoke;
+ font-weight: bold;
+ margin-left: 45px;
+ text-align: center;
+ 
+}
+
+.intro h3{
+    font-family:'Times New Roman', Times, serif ;
+    color: yellow;
+    font-weight: bold;
+    margin-left: 45px;
+    text-align: center;
+}
+
+.intro button{
+    border: 5px solid transparent;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.email{
+    background-color: whitesmoke;
+}
+
+
+
+
+.linkedin{
+    background-color: rgb(6, 187, 247);
+    color: whitesmoke;
+}
+
+
+button:hover{
+    animation-name: renk;
+    animation-duration: 1.5s;
+    animation-iteration-count: inherit;
+
+}
+
+@keyframes renk {
+    0% {
+        background-color: green;
+    }
+
+    33% { 
+        background-color: darkorange;
+    }
+    66%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: deeppink;
+    }
+    }
